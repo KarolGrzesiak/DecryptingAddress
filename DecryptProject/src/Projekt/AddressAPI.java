@@ -8,7 +8,7 @@ import java.util.List;
 import static Projekt.ProcessData.LOCATION;
 
 public class AddressAPI {
-    static String API_KEY = "AIzaSyAPI988xnd_xMUB1EZb2j32LUornytzMq4";
+    static String API_KEY = "";
     public static Place checkAddress(){
         GooglePlaces client = new GooglePlaces(API_KEY);
         List<Place> placeList = client.getPlacesByQuery(LOCATION);
