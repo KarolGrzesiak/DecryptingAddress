@@ -22,7 +22,7 @@ import static Projekt.ProcessData.FULL_NAME;
 
 public class NameAPI {
 
-    static String API_KEY = "d95870b6182774f546f6064587a6863b-user1";
+    static String API_KEY = "";
     public static PersonNameParserResult checkPerson(){
         PersonNameParserResult result = null;
         try {
